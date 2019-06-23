@@ -42,6 +42,5 @@ Promise.all([
     consumeCola(),
     letOutABurp()
 ]).then(()=>{
-
     console.log('Continue with your work!!');
 });
