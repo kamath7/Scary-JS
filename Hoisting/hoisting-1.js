@@ -12,4 +12,4 @@ var a = function(){
     var b = 20;
     return b;
 }
-//difference between named and anonymous functions ->
+//difference between named and anonymous functions as above. Function not hoisted. 
