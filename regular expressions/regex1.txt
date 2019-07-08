@@ -1,0 +1,45 @@
+
+searching for any number for format 917-555-1234
+Single Characters
+\d - means any digit 0-9
+\w - any character A-Z a-z 0-9
+\s - any whitespace
+
+Quantifiers
+. - any char
+* - 0 or more
++ -> 1 or more
+? - 0 or 1
+{min,max}
+{n}
+
+Position
+^ - beginning
+$- end
+\b - word boundary
+
+
+
+
+\d\d\d-\d\d\d-\d\d\d\d
+
+ex: \w{5} all 5 letter words
+
+ex:
+Hi
+What are you
+doing tonight
+Let's have 
+tea
+and biscuits!
+
+to get all character at start of the lines - ^\w
+get all words at end of line - \w+$
+all four letter words - \b\w{4}\b
+
+
+918-299-3001
+939-293-3911
+
+
+Credits - Thanks to coding train(YouTube)
