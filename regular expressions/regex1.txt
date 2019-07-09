@@ -19,7 +19,12 @@ $- end
 \b - word boundary
 
 
+Character Class
 
+[abc] - match a or b or c
+
+Groups
+(\w+),\s+(\w+)
 
 \d\d\d-\d\d\d-\d\d\d\d
 
@@ -40,6 +45,35 @@ all four letter words - \b\w{4}\b
 
 918-299-3001
 939-293-3911
+928.293.1002
+(910)-201-3010
+[0-3] {3} - anything in the range 0-3 and has 3 digits
+[^ 0-3]{3}- anything not in the range 0-3 and has 3 digits
+
+ex:
+
+skype is link to lynk 
+
+l[yi]nk - to get link and lynk
 
 
 Credits - Thanks to coding train(YouTube)
+
+ex
+adi@adi.net 
+adi.kams@adi.com
+
+to get the email addresses - [\w.]+@\w+\.(net|com)
+
+ex
+918-299-3001
+939-293-3911
+928.293.1002
+(910)201-3010
+
+\(?\d{3}[-.)]\d{3}[-.]\d{4}
+
+ex
+Cristiano Ronaldo
+Lionel Messi
+Wayne Rooney
